@@ -130,4 +130,4 @@ Menampilkan isi keranjang dengan displayKeranjang(), menampilkan detail setiap p
 - Desain keseluruhan ini memungkinkan penambahan jenis pegawai atau produk baru dengan cukup membuat kelas turunan dari kelas dasar dan menambahkan atribut dan metode yang sesuai.
 
 # Selesai
-##### *lagi niat ngerjain pakk, maaf banyak wkwkwk
+##### *lagi niat ngerjain pak, maaf banyak wkwkwk
