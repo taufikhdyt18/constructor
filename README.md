@@ -58,11 +58,11 @@ class Pegawai {
 }
 ```
 Atribut:
-nama (String): Menyimpan nama pegawai.
-gajiPokok (double): Menyimpan gaji pokok pegawai.
-Metode:
-setNama(String): Mengatur nama pegawai.
-getNama(): Mengembalikan nama pegawai.
-setGajiPokok(double): Mengatur gaji pokok pegawai.
-getGajiPokok(): Mengembalikan gaji pokok pegawai.
-cetakInfo(): Mencetak informasi dasar pegawai (nama dan gaji pokok).
+- nama (String): Menyimpan nama pegawai.
+- gajiPokok (double): Menyimpan gaji pokok pegawai.
+#### Metode:
+- setNama(String): Mengatur nama pegawai.
+- getNama(): Mengembalikan nama pegawai.
+- setGajiPokok(double): Mengatur gaji pokok pegawai.
+- getGajiPokok(): Mengembalikan gaji pokok pegawai.
+- cetakInfo(): Mencetak informasi dasar pegawai (nama dan gaji pokok).
