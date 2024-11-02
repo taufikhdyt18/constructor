@@ -166,9 +166,11 @@ class Programmer extends Pegawai {
 ### Output
 ![image](ss1/ss1.png)
 ## Studi Kasus : Sistem Pembelian Online Dengan Keranjang Belanja
+![image](ss1/ss3.png)
 - Sistem Keranjang Belanja ini mensimulasikan keranjang belanja online dengan berbagai jenis produk. Kita memiliki kelas dasar Produk dengan tiga kelas turunan, yaitu Elektronik, Pakaian, dan Makanan, yang masing-masing mewakili jenis produk yang berbeda.
 
 #### Kelas Produk (Kelas Dasar)
+![image](ss2/ss2.png)
 #### Atribut:
 - namaProduk (String): Nama produk.
 - harga (double): Harga produk.
@@ -176,23 +178,25 @@ class Programmer extends Pegawai {
 #### Metode:
 - displayInfo(): Menampilkan informasi dasar produk (nama, harga, dan stok).
 - Constructor: Kelas ini memiliki constructor untuk menginisialisasi atributnya.
-- Kelas Elektronik (Turunan dari Produk)
+#### Kelas Elektronik (Turunan dari Produk)
+![gambar](ss2/ss3.png)
 #### Atribut:
 - garansi (int): Masa garansi dalam tahun.
 #### Metode:
 - displayInfo(): Meng-override metode displayInfo() untuk menambahkan informasi tentang masa garansi untuk produk elektronik.
-- Kelas Pakaian (Turunan dari Produk)
+#### Kelas Pakaian (Turunan dari Produk)
+![gambar](ss2/ss4.png)
 #### Atribut:
 - ukuran (String): Ukuran pakaian.
 - warna (String): Warna pakaian.
 #### Metode:
 - displayInfo(): Meng-override metode displayInfo() untuk menambahkan informasi tentang ukuran dan warna untuk produk pakaian.
-- Kelas Makanan (Turunan dari Produk)
+#### Kelas Makanan (Turunan dari Produk)
 #### Atribut:
 - tanggalKadaluwarsa (Date): Tanggal kedaluwarsa produk makanan.
 #### Metode:
 - displayInfo(): Meng-override metode displayInfo() untuk menambahkan informasi tentang tanggal kedaluwarsa untuk produk makanan.
-- Kelas KeranjangBelanja (Keranjang Belanja)
+#### Kelas KeranjangBelanja (Keranjang Belanja)
 #### Atribut:
 - produkList (List of Produk): Daftar yang menampung produk yang ditambahkan ke keranjang.
 #### Metode:
