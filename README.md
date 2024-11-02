@@ -42,13 +42,15 @@ MATKUL  : Pemrograman Orientasi Objek
 - getBonus(): Mengembalikan bonus programmer.
 - cetakInfo(): Meng-override metode cetakInfo() untuk menambahkan informasi tentang bonus programmer.
 ### Constructor dan Overloading dalam Programmer
-#### Main.Java
-![gambaar](ss1/ss5.png)
+#### Constructor
 - Kelas Programmer memiliki constructor overload yang memungkinkan pembuatan objek dengan parameter yang berbeda (hanya nama, nama dengan gaji pokok, atau nama dengan gaji pokok dan bonus).
 #### Polimorfisme:
 
 - Manager dan Programmer keduanya meng-override cetakInfo() untuk menampilkan informasi spesifik (tunjangan untuk Manager dan bonus untuk Programmer), yang menunjukkan konsep polimorfisme.
-### Output
+####Main.Java
+![gambaar](ss1/ss5.png)
+- Kelas Main adalah titik masuk program di mana kita melakukan pengujian pada kedua sistem:
+#### Output
 ![image](ss1/ss1.png)
 ## Studi Kasus : Sistem Pembelian Online Dengan Keranjang Belanja
 ![image](ss1/ss3.png)
