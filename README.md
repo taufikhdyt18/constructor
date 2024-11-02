@@ -84,6 +84,8 @@ MATKUL  : Pemrograman Orientasi Objek
 #### Metode:
 - displayInfo(): Meng-override metode displayInfo() untuk menambahkan informasi tentang tanggal kedaluwarsa untuk produk makanan.
 #### Kelas KeranjangBelanja (Keranjang Belanja)
+![image](ss2/ss5.png)
+
 #### Atribut:
 - produkList (List of Produk): Daftar yang menampung produk yang ditambahkan ke keranjang.
 #### Metode:
