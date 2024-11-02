@@ -92,3 +92,17 @@ MATKUL  : Pemrograman Orientasi Objek
 - tambahProduk(Produk, int): Menambahkan produk ke keranjang jika stok mencukupi.
 - hitungTotalBelanja(): Menghitung total harga semua produk dalam keranjang.
 - displayKeranjang(): Menampilkan semua item di dalam keranjang dan total biaya.
+
+### Kelas Main (Kelas Utama)
+![image](ss2/ss6.png)
+- Kelas Main adalah titik masuk program di mana kita melakukan pengujian pada kedua sistem:
+
+#### Pengujian Sistem Pegawai:
+
+- Membuat instance dari Programmer dengan constructor yang berbeda untuk menguji overloading constructor.
+Memanggil cetakInfo() untuk setiap Programmer untuk menampilkan detail mereka, termasuk bonus jika ada.
+Pengujian Sistem Keranjang Belanja:
+
+- Membuat instance dari Elektronik, Pakaian, dan Makanan untuk menguji polimorfisme.
+Menambahkan produk-produk ini ke objek KeranjangBelanja.
+Menampilkan isi keranjang dengan displayKeranjang(), menampilkan detail setiap produk sesuai dengan subkelasnya dan menghitung total harga.
