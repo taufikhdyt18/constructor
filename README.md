@@ -69,10 +69,54 @@ class Pegawai {
 - cetakInfo(): Mencetak informasi dasar pegawai (nama dan gaji pokok).
 #### Kelas Manager (Turunan dari Pegawai)
 ```
+class Manager extends Pegawai {
+    private double tunjangan;
 
+    // Constructor with no parameters
+    public Manager() {
+        super();
+        this.tunjangan = 0.0;
+    }
+
+    // Constructor with name and gajiPokok
+    public Manager(String nama, double gajiPokok) {
+        super(nama, gajiPokok);
+        this.tunjangan = 0.0;
+    }
+
+    // Constructor with name, gajiPokok, and tunjangan
+    public Manager(String nama, double gajiPokok, double tunjangan) {
+        super(nama, gajiPokok);
+        this.tunjangan = tunjangan;
+    }
+
+    public void setTunjangan(double tunjangan) {
+        this.tunjangan = tunjangan;
+    }
+
+    public double getTunjangan() {
+        return tunjangan;
+    }
+
+    @Override
+    public void cetakInfo() {
+        super.cetakInfo();
+        System.out.println("Tunjangan: " + tunjangan);
+    }
+}
+```
 #### Atribut:
-tunjangan (double): Menyimpan tunjangan khusus untuk seorang manager.
+- tunjangan (double): Menyimpan tunjangan khusus untuk seorang manager.
+#### Metode:
+- setTunjangan(double): Mengatur tunjangan manager.
+- getTunjangan(): Mengembalikan tunjangan manager.
+- cetakInfo(): Meng-override metode cetakInfo() untuk menambahkan informasi tentang tunjangan manager.
+
+#### Kelas Programmer (Turunan dari Pegawai)
+```
+#### Atribut:
+bonus (double): Menyimpan bonus khusus untuk seorang programmer.
 Metode:
-setTunjangan(double): Mengatur tunjangan manager.
-getTunjangan(): Mengembalikan tunjangan manager.
-cetakInfo(): Meng-override metode cetakInfo() untuk menambahkan informasi tentang tunjangan manager.
+setBonus(double): Mengatur bonus programmer.
+getBonus(): Mengembalikan bonus programmer.
+cetakInfo(): Meng-override metode cetakInfo() untuk menambahkan informasi tentang bonus programmer.
