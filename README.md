@@ -8,10 +8,11 @@ MATKUL  : Pemrograman Orientasi Objek
 ## Latihan
 ![image](ss1/ss2.png)
 ## Penjelasan
-- Sistem Pegawai
-Sistem Pegawai ini mensimulasikan struktur dasar dalam manajemen sumber daya manusia. Kita memiliki kelas dasar Pegawai dengan dua kelas turunan, yaitu Manager dan Programmer, masing-masing memiliki atribut dan perilaku spesifik.
+
+- Sistem Pegawai mensimulasikan struktur dasar dalam manajemen sumber daya manusia. Kita memiliki kelas dasar Pegawai dengan dua kelas turunan, yaitu Manager dan Programmer, masing-masing memiliki atribut dan perilaku spesifik.
 
 Kelas Pegawai (Kelas Dasar)
+```
 
 Atribut:
 nama (String): Menyimpan nama pegawai.
