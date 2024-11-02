@@ -5,7 +5,7 @@ NAMA    : TAUFIK HIDAYAT
 KELAS   : TI.23.A6
 MATKUL  : Pemrograman Orientasi Objek
 ```
-## Latihan
+## Latihan Praktikum 3
 ![image](ss1/ss2.png)
 ## Penjelasan
 
