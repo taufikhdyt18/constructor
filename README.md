@@ -55,7 +55,7 @@ MATKUL  : Pemrograman Orientasi Objek
 - Sistem Keranjang Belanja ini mensimulasikan keranjang belanja online dengan berbagai jenis produk. Kita memiliki kelas dasar Produk dengan tiga kelas turunan, yaitu Elektronik, Pakaian, dan Makanan, yang masing-masing mewakili jenis produk yang berbeda.
 
 #### Kelas Produk (Kelas Dasar)
-![image](ss2/ss2.png)
+![image](ss2/ss1.png)
 #### Atribut:
 - namaProduk (String): Nama produk.
 - harga (double): Harga produk.
@@ -64,19 +64,21 @@ MATKUL  : Pemrograman Orientasi Objek
 - displayInfo(): Menampilkan informasi dasar produk (nama, harga, dan stok).
 - Constructor: Kelas ini memiliki constructor untuk menginisialisasi atributnya.
 #### Kelas Elektronik (Turunan dari Produk)
-![gambar](ss2/ss3.png)
+![gambar](ss2/ss2.png)
 #### Atribut:
 - garansi (int): Masa garansi dalam tahun.
 #### Metode:
 - displayInfo(): Meng-override metode displayInfo() untuk menambahkan informasi tentang masa garansi untuk produk elektronik.
 #### Kelas Pakaian (Turunan dari Produk)
-![gambar](ss2/ss4.png)
+![gambar](ss2/ss3.png)
 #### Atribut:
 - ukuran (String): Ukuran pakaian.
 - warna (String): Warna pakaian.
 #### Metode:
 - displayInfo(): Meng-override metode displayInfo() untuk menambahkan informasi tentang ukuran dan warna untuk produk pakaian.
 #### Kelas Makanan (Turunan dari Produk)
+![image](ss2/ss4.png)
+
 #### Atribut:
 - tanggalKadaluwarsa (Date): Tanggal kedaluwarsa produk makanan.
 #### Metode:
