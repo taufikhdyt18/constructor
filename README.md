@@ -163,7 +163,9 @@ class Programmer extends Pegawai {
 #### Polimorfisme:
 
 - Manager dan Programmer keduanya meng-override cetakInfo() untuk menampilkan informasi spesifik (tunjangan untuk Manager dan bonus untuk Programmer), yang menunjukkan konsep polimorfisme.
-### Sistem Keranjang Belanja
+### Output
+![image](ss1/ss1.png)
+## Studi Kasus : Sistem Pembelian Online Dengan Keranjang Belanja
 - Sistem Keranjang Belanja ini mensimulasikan keranjang belanja online dengan berbagai jenis produk. Kita memiliki kelas dasar Produk dengan tiga kelas turunan, yaitu Elektronik, Pakaian, dan Makanan, yang masing-masing mewakili jenis produk yang berbeda.
 
 #### Kelas Produk (Kelas Dasar)
