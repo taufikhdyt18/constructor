@@ -57,7 +57,7 @@ class Pegawai {
     }
 }
 ```
-Atribut:
+#### Atribut:
 - nama (String): Menyimpan nama pegawai.
 - gajiPokok (double): Menyimpan gaji pokok pegawai.
 #### Metode:
