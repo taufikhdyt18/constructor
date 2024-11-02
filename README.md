@@ -49,7 +49,7 @@ MATKUL  : Pemrograman Orientasi Objek
 - Manager dan Programmer keduanya meng-override cetakInfo() untuk menampilkan informasi spesifik (tunjangan untuk Manager dan bonus untuk Programmer), yang menunjukkan konsep polimorfisme.
 ####Main.Java
 ![gambaar](ss1/ss5.png)
-- Kelas Main adalah titik masuk program di mana kita melakukan pengujian pada kedua sistem:
+- Kelas Main adalah titik masuk program di mana kita melakukan pengujian pada program sistem pegawai tersebut:
 #### Output
 ![image](ss1/ss1.png)
 ## Studi Kasus : Sistem Pembelian Online Dengan Keranjang Belanja
