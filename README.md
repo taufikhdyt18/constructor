@@ -122,3 +122,15 @@ Menampilkan isi keranjang dengan displayKeranjang(), menampilkan detail setiap p
 
 #### Output
 ![image](ss2/ss7.png)
+
+### Ringkasan
+- Program ini menunjukkan bagaimana konsep-konsep pemrograman berorientasi objek seperti pewarisan, polimorfisme, dan enkapsulasi bekerja bersama untuk menciptakan sistem yang terstruktur dan modular.
+
+```
+1. Dalam Sistem Pegawai, Pegawai, Manager, dan Programmer menunjukkan pewarisan dan overloading constructor.
+2. Dalam Sistem Keranjang Belanja, Produk dan subclassnya menggunakan polimorfisme untuk menyediakan detail spesifik produk, dan kelas KeranjangBelanja menangani operasi terkait keranjang, seperti menambahkan produk dan menghitung total harga.
+```
+- Desain keseluruhan ini memungkinkan penambahan jenis pegawai atau produk baru dengan cukup membuat kelas turunan dari kelas dasar dan menambahkan atribut dan metode yang sesuai.
+
+### Sekian & Terima Kasih
+##### *lagi niat ngerjain pakk maaf banyak wkwkwk
