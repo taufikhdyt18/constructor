@@ -95,7 +95,7 @@ MATKUL  : Pemrograman Orientasi Objek
 - hitungTotalBelanja(): Menghitung total harga semua produk dalam keranjang.
 - displayKeranjang(): Menampilkan semua item di dalam keranjang dan total biaya.
 
-### Kelas Main (Kelas Utama)
+#### Kelas Main (Kelas Utama)
 ![image](ss2/ss6.png)
 - Kelas Main adalah titik masuk program di mana kita melakukan pengujian pada kedua sistem:
 
@@ -108,3 +108,17 @@ Pengujian Sistem Keranjang Belanja:
 - Membuat instance dari Elektronik, Pakaian, dan Makanan untuk menguji polimorfisme.
 Menambahkan produk-produk ini ke objek KeranjangBelanja.
 Menampilkan isi keranjang dengan displayKeranjang(), menampilkan detail setiap produk sesuai dengan subkelasnya dan menghitung total harga.
+
+#### Konsep-Konsep yang Digunakan dalam Program
+
+#### Pewarisan (Inheritance): 
+- Manager dan Programmer mewarisi Pegawai; Elektronik, Pakaian, dan Makanan mewarisi Produk. Setiap kelas turunan memiliki atribut dan metode tambahan yang spesifik.
+#### Polimorfisme (Polymorphism): 
+- Metode displayInfo() di-override di setiap subkelas Produk, sehingga pemanggilan displayInfo() pada tipe produk yang berbeda menghasilkan output yang disesuaikan.
+#### Enkapsulasi (Encapsulation): 
+- Setiap kelas mengenkapsulasi atributnya sendiri dan menyediakan metode untuk mengakses dan mengubahnya, seperti setNama() dan getNama() di Pegawai.
+#### Overloading Constructor: 
+- Programmer memiliki beberapa constructor, yang memungkinkan objek diinisialisasi dengan berbagai set parameter.
+
+#### Output
+![image](ss2/ss7.png)
