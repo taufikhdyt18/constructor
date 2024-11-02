@@ -114,9 +114,52 @@ class Manager extends Pegawai {
 
 #### Kelas Programmer (Turunan dari Pegawai)
 ```
+class Programmer extends Pegawai {
+    private double bonus;
+
+    // Constructor with name only
+    public Programmer(String nama) {
+        super(nama);
+        this.bonus = 0.0;
+    }
+
+    // Constructor with name and gajiPokok
+    public Programmer(String nama, double gajiPokok) {
+        super(nama, gajiPokok);
+        this.bonus = 0.0;
+    }
+
+    // Constructor with name, gajiPokok, and bonus
+    public Programmer(String nama, double gajiPokok, double bonus) {
+        super(nama, gajiPokok);
+        this.bonus = bonus;
+    }
+
+    public void setBonus(double bonus) {
+        this.bonus = bonus;
+    }
+
+    public double getBonus() {
+        return bonus;
+    }
+
+    @Override
+    public void cetakInfo() {
+        super.cetakInfo();
+        System.out.println("Bonus: " + bonus);
+    }
+}
+```
 #### Atribut:
-bonus (double): Menyimpan bonus khusus untuk seorang programmer.
-Metode:
-setBonus(double): Mengatur bonus programmer.
-getBonus(): Mengembalikan bonus programmer.
-cetakInfo(): Meng-override metode cetakInfo() untuk menambahkan informasi tentang bonus programmer.
+- bonus (double): Menyimpan bonus khusus untuk seorang programmer.
+#### Metode:
+- setBonus(double): Mengatur bonus programmer.
+- getBonus(): Mengembalikan bonus programmer.
+- cetakInfo(): Meng-override metode cetakInfo() untuk menambahkan informasi tentang bonus programmer.
+### Constructor dan Overloading dalam Programmer
+#### Constructor:
+
+- Kelas Programmer memiliki constructor overload yang memungkinkan pembuatan objek dengan parameter yang berbeda (hanya nama, nama dengan gaji pokok, atau nama dengan gaji pokok dan bonus).
+#### Polimorfisme:
+
+- Manager dan Programmer keduanya meng-override cetakInfo() untuk menampilkan informasi spesifik (tunjangan untuk Manager dan bonus untuk Programmer), yang menunjukkan konsep polimorfisme.
