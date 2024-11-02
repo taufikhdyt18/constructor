@@ -163,3 +163,37 @@ class Programmer extends Pegawai {
 #### Polimorfisme:
 
 - Manager dan Programmer keduanya meng-override cetakInfo() untuk menampilkan informasi spesifik (tunjangan untuk Manager dan bonus untuk Programmer), yang menunjukkan konsep polimorfisme.
+### Sistem Keranjang Belanja
+- Sistem Keranjang Belanja ini mensimulasikan keranjang belanja online dengan berbagai jenis produk. Kita memiliki kelas dasar Produk dengan tiga kelas turunan, yaitu Elektronik, Pakaian, dan Makanan, yang masing-masing mewakili jenis produk yang berbeda.
+
+#### Kelas Produk (Kelas Dasar)
+#### Atribut:
+- namaProduk (String): Nama produk.
+- harga (double): Harga produk.
+- jumlahStok (int): Jumlah stok yang tersedia.
+#### Metode:
+- displayInfo(): Menampilkan informasi dasar produk (nama, harga, dan stok).
+- Constructor: Kelas ini memiliki constructor untuk menginisialisasi atributnya.
+- Kelas Elektronik (Turunan dari Produk)
+#### Atribut:
+- garansi (int): Masa garansi dalam tahun.
+#### Metode:
+- displayInfo(): Meng-override metode displayInfo() untuk menambahkan informasi tentang masa garansi untuk produk elektronik.
+- Kelas Pakaian (Turunan dari Produk)
+#### Atribut:
+- ukuran (String): Ukuran pakaian.
+- warna (String): Warna pakaian.
+#### Metode:
+- displayInfo(): Meng-override metode displayInfo() untuk menambahkan informasi tentang ukuran dan warna untuk produk pakaian.
+- Kelas Makanan (Turunan dari Produk)
+#### Atribut:
+- tanggalKadaluwarsa (Date): Tanggal kedaluwarsa produk makanan.
+#### Metode:
+- displayInfo(): Meng-override metode displayInfo() untuk menambahkan informasi tentang tanggal kedaluwarsa untuk produk makanan.
+- Kelas KeranjangBelanja (Keranjang Belanja)
+#### Atribut:
+- produkList (List of Produk): Daftar yang menampung produk yang ditambahkan ke keranjang.
+#### Metode:
+- tambahProduk(Produk, int): Menambahkan produk ke keranjang jika stok mencukupi.
+- hitungTotalBelanja(): Menghitung total harga semua produk dalam keranjang.
+- displayKeranjang(): Menampilkan semua item di dalam keranjang dan total biaya.
